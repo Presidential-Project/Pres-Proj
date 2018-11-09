@@ -92,3 +92,14 @@ ror: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win
 [GPU 6176, Chrome_ChildThre
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1541778271573	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\harry\\AppData\\Local\\Temp\\rust_mozprofile.k8mQAoycoqiY"
+1541778280739	Marionette	INFO	Listening on port 63219
+1541778281195	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541778319348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\harry\\AppData\\Local\\Temp\\rust_mozprofile.AY6KQzQVIALf"
+[Parent 13972, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541778334253	Marionette	INFO	Listening on port 65216
+1541778334377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541778513062	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\harry\\AppData\\Local\\Temp\\rust_mozprofile.xBBFLoDP93VD"
+1541778549436	Marionette	INFO	Listening on port 65427
+[Child 15760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build1541778549976	Marionette	WARN	TLS certificate errors will be ignored for this session
