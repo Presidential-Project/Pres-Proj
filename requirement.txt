@@ -1,0 +1,56 @@
+Installation instructions
+
+All of these packages will need to be imported before running the code
+
+Third Party Packages: This packages will require a !pip install command
+pandas
+numpy
+matplotlib.pyplot
+seaborn
+urllib3
+bs4
+selenium
+sympy
+nltk
+textblob
+wordcloud
+pil
+
+
+Python built-in: Thisk packages just need to be imported before running the code
+datetime
+statistics
+math
+time
+re
+string
+os
+
+Run Instructions
+
+We have 3 files main files which will run the whole analysis
+
+1.- Final Data Acquisition.ipynb: When running this file, the libraries will be imported
+                                  then, you will be able to run the next cell, which will
+				  open an internet browser(Preferably Google Chrome) which
+				  will run a minute or so, please don't interrupt this process.
+				  A good internet connection is required. Finally, you will be 
+                                  able to run the rest of the code in this file freely, waiting
+				  until it finish the process. This file will create a pickle with
+				  the dates, speeches and president data.
+				  
+
+2.- Final Sentiment Analysis.ipynb: You can run this file freely but this file will take some processing
+				    time. The purpose of this file is to tokenize and analyze the speeches
+				    adding 3 columns to the data created previously.
+
+3.- Final Data Merge.ipynb: As the second file you can just run the jupyter notebook, it will grab the
+			    data from the financial csv files (which need to be on the same folder) and
+			    merge the financial dataframe with the one created in the second file. 
+			    
+
+4.- Regression.ipynb: Run this file and the output will be a regression analysis over the financial data
+		     and the compound from the sentiment analysis file.
+
+5.-Word Cloud Analysis, Party Stripplot: This files should be run in the end of the process. they
+					 only generate png images. 
