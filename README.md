@@ -15,14 +15,40 @@ Sentiment of presidential speeches and their effect on major American stock mark
 - Analyse the dataframe for correlation and significance 
 
 
+### Installation instructions 
 
-### Installation instructions (if any besides cloning the repo)
+Python packages are listed appropriately in requirements.txt
 
-Python packages should be listed appropriately in requirements.txt
 ### Run instructions
-What do I need to type to get your program to do its thing
 
+We have 3 files main files which will run the whole analysis
+
+1.- Final Data Acquisition.ipynb: When running this file, the libraries will be imported
+                                  then, you will be able to run the next cell, which will
+				  open an internet browser(Preferably Google Chrome) which
+				  will run a minute or so, please don't interrupt this process.
+				  A good internet connection is required. Finally, you will be 
+                                  able to run the rest of the code in this file freely, waiting
+				  until it finish the process. This file will create a pickle with
+				  the dates, speeches and president data.
+				  
+
+2.- Final Sentiment Analysis.ipynb: You can run this file freely but this file will take some processing
+				    time. The purpose of this file is to tokenize and analyze the speeches
+				    adding 3 columns to the data created previously.
+
+3.- Final Data Merge.ipynb: As the second file you can just run the jupyter notebook, it will grab the
+			    data from the financial csv files (which need to be on the same folder) and
+			    merge the financial dataframe with the one created in the second file. 
+			    
+
+4.- Regression.ipynb: Run this file and the output will be a regression analysis over the financial data
+		     and the compound from the sentiment analysis file.
+
+5.-Word Cloud Analysis, Party Stripplot: This files should be run in the end of the process. they
+					 only generate png images. 
 ## Difficulties
+
 We wanted to add this additional part to describe some of the issues we faced and how we worked through or around them. I hope this section
 could clarify few of the decisions we had to make during coding.
 
